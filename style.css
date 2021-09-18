@@ -1,0 +1,160 @@
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--violet);
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    margin: 2rem 0 5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+header img {
+    width: 60vw;
+}
+
+main {
+    margin: 0 1rem 1rem;
+    color: white;
+    text-align: center;
+}
+
+main h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+main p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 0 1.7rem;
+    font-size: 20px;
+}
+
+main button {
+    margin: 1rem 0;
+    border-radius: 30px;
+    padding: .7rem 0;
+    width: 200px;
+    background-color: white;
+    color: var(--violet);
+    border: none;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    margin: 1rem
+}
+
+.icon {
+    border-radius: 100%;
+    background-color: white;
+    margin: 0 .2rem;
+    color: var(--soft-magenta);
+    padding: .5rem;
+}
+
+.icon:hover {
+    background-color: var(--soft-magenta);
+    color: white;
+}
+
+
+footer {
+    margin-top: 3rem;
+    font-size: 11px;
+    color: #333;
+}
+
+@media screen and (min-width: 1000px) {
+    .content {
+        width: 90vw;
+        height: 60vw;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+    }
+
+    header {
+        width: 40vw;
+        margin: 0;
+    }
+
+    header img  {
+        width: 100%;
+    }
+
+    main {
+        width: 40vw;
+        text-align: left;
+        margin: 0;
+    }
+
+    main h1 {
+        font-size: 48px;
+    }
+
+    main p {
+        margin: 0 3rem 0 0;
+        font-size: 20px;
+    }
+
+    main button:hover {
+        color: white;
+        background-color: var(--soft-magenta);
+        cursor: pointer;
+    }
+
+    .icones {
+        width: 70vw;
+        justify-content: flex-end;
+    }
+
+    .icon {
+        background: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+
+    .icon:hover {
+        background: transparent;
+        color:hsl(300, 69%, 71%);
+        border-color: var(--soft-magenta);
+    }
+}
+
+
+
