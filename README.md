@@ -1,10 +1,14 @@
-# Frontend Mentor - Huddle landing page with single introductory section
+# Huddle landing page with single introductory section 🎈
 
 ## Welcome! 👋
 
 Desenvolvido com html e css. Layout first mobile, usando flexbox e media query
 
-![Design preview for the Huddle landing page with single introductory section](./design/desktop-design.jpg)
+## Layout Desktop 🎨💻
 
-![Design preview mobile for the Huddle landing page with single introductory section](./design/mobile-design.jpg)
+![Layout Desktop](./images/layout-desktop.png)
+
+## Layout Mobile 🎨📱
+
+![Layout Mobile](./images/layout-mobile.png)
 
